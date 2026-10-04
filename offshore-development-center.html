@@ -93,6 +93,10 @@ ul.ck li:before{content:"";position:absolute;left:0;top:6px;width:14px;height:14
 .lg img{max-width:100%;max-height:100%;object-fit:contain;display:block}
 @keyframes slide{to{transform:translateX(calc(-50% - 8px))}}
 @media (prefers-reduced-motion:reduce){.belt{overflow-x:auto;-webkit-mask:none;mask:none}.track{animation:none}}
+.cta{padding:96px 0;text-align:center;border-top:1px solid #0f1730;background:radial-gradient(800px 360px at 50% 0%,rgba(82,113,255,.22),transparent 70%),linear-gradient(180deg,#0b1226,#07090f)}
+.cta h2{font-size:clamp(30px,5vw,56px);font-weight:700;max-width:none;margin:12px auto 0}.cta p{color:var(--mu);max-width:640px;margin:18px auto 0;font-size:17.5px}
+.ctab{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}.btn.big{padding:15px 30px;font-size:15.5px;border-radius:99px}
+.cline{margin-top:26px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-size:14px;color:var(--mu)}.cline a{color:var(--mu)}.cline a:hover{color:var(--tx)}
 /* contact */
 .contact{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:stretch}
 .cl{display:grid;gap:12px;margin-top:18px}.cl a,.cl div{display:flex;gap:12px;align-items:flex-start;color:var(--tx);font-size:15px}
@@ -112,7 +116,7 @@ footer .in{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;al
 }
 </style></head><body><header class="top"><div class="wrap in"><a class="logo" href="index.html"><img src="assets/logo.png" alt="Code Inc."></a>
 <button class="burger" aria-label="Menu" onclick="document.getElementById('nv').classList.toggle('open')">&#9776;</button>
-<nav id="nv"><a href="index.html">All offerings</a><a class="btn s" href="#contact" style="color:#04101a;margin-left:8px">Talk to us</a></nav></div></header><main id="top"><section class="sec" id="odc"><div class="wrap">
+<nav id="nv"><a href="index.html">All offerings</a><a class="btn s" href="#cta" style="color:#04101a;margin-left:8px">Talk to us</a></nav></div></header><main id="top"><section class="sec" id="odc"><div class="wrap">
 <div class="odchead"><svg viewBox="0 0 64 64" class="odcmark" role="img" aria-label="Offshore Development Center emblem">
 <defs><linearGradient id="og" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5271ff"/><stop offset=".6" stop-color="#3ab6fc"/><stop offset="1" stop-color="#66f6db"/></linearGradient></defs>
 <ellipse cx="32" cy="32" rx="27" ry="11" fill="none" stroke="url(#og)" stroke-width="2.2" transform="rotate(-28 32 32)"/>
@@ -140,10 +144,10 @@ footer .in{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;al
 <div class="grid1" style="margin-top:20px">
 <div class="pan"><h3>Risks, handled up front</h3><ul class="ck"><li><b>Attrition:</b> candidate counselling, 3-month notice, ready shadows and structured PIPs</li><li><b>Security &amp; compliance:</b> periodic system updates, access control, CCTV, background checks</li><li><b>Culture fit:</b> orientation that mirrors your policies, hierarchy and communication</li><li><b>Currency:</b> contract in local currency or USD, EUR, GBP, ZAR, AED, with a preset exchange range if needed</li></ul></div>
 </div></section>
-<section class="sec" id="contact"><div class="wrap"><div class="contact">
-<div class="pan hi"><div class="kick">Contact</div><h2 style="font-size:32px">Tell us what you need.</h2><p style="margin-top:12px">Engineers for a project, a development center, or hardware for your office or data center. We reply within one working day.</p>
-<div class="cl"><a href="mailto:contact@codeinc.me"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>contact@codeinc.me</a><a href="tel:+96522210696"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>+965 2221 0696</a><a href="tel:+96566500866"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>+965 6650 0866</a></div>
-<div style="margin-top:22px"><a class="btn" href="mailto:contact@codeinc.me?subject=Enquiry%20from%20offerings.codeinc.me">Email us</a></div></div>
-<div class="pan"><h3>More from Code Inc.</h3><div class="cl"><a href="https://www.codeinc.me"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>www.codeinc.me</a><a href="https://showcase.codeinc.me"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5zM3 12.500l9 5 9-5M3 16.500l9 5 9-5"/></svg>Project showcase</a><a href="https://techjobs.codeinc.me"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#66f6db" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="3.4"/><circle cx="4.8" cy="11" r="2.4"/><circle cx="19.2" cy="11" r="2.4"/><path d="M5.5 19c.4-3.4 3.2-5.2 6.5-5.2s6.1 1.8 6.5 5.2M1.5 18c.2-2.2 1.4-3.5 3.3-3.8M22.5 18c-.2-2.2-1.4-3.5-3.3-3.8"/></svg>TechJobs</a></div></div>
-</div></div></section></main><footer><div class="wrap"><div class="in"><img src="assets/logo.png" alt="Code Inc."><span>Copyright &copy; CODE INC. 2026 &middot; <a href="https://calendly.com/codeincme">Talk to an expert</a></span></div>
+<section class="cta" id="cta"><div class="wrap">
+<div class="kick">Build better tech with us</div><h2>Talk to an expert at Code Inc.</h2>
+<p>Dedicated teams, fixed-scope delivery, managed services and Lenovo hardware. Tell us what you need and we will help you shape it.</p>
+<div class="ctab"><a class="btn big" href="https://calendly.com/codeincme">Talk to an expert</a><a class="btn o big" href="mailto:contact@codeinc.me?subject=Enquiry%20from%20offerings.codeinc.me">Email us</a></div>
+<div class="cline"><a href="mailto:contact@codeinc.me">contact@codeinc.me</a><span>&middot;</span><a href="tel:+96522210696">+965 2221 0696</a><span>&middot;</span><a href="tel:+96566500866">+965 6650 0866</a><span>&middot;</span><a href="https://www.codeinc.me">www.codeinc.me</a></div>
+</div></section></main><footer><div class="wrap"><div class="in"><img src="assets/logo.png" alt="Code Inc."><span>Copyright &copy; CODE INC. 2026 &middot; <a href="https://calendly.com/codeincme">Talk to an expert</a></span></div>
 <p>Lenovo, ThinkPad, ThinkBook, ThinkCentre, ThinkStation, ThinkVision, ThinkSystem, ThinkAgile, ThinkEdge and TruScale are trademarks of Lenovo. Client logos belong to their respective owners.</p></div></footer></body></html>
